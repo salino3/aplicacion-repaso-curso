@@ -1,0 +1,29 @@
+
+body{
+    background-color: #2A9D8F;
+}
+Input, ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+
+}
+Input{
+    color: blue;
+    margin: 2em;
+    border-radius: 10em 100em;
+    padding-left: 1em;
+    text:black;
+    background-color: yellow;
+  /*    opacity: 1; Firefox */
+    border: solid 5px green;
+}
+
+
+button{
+    color: green;
+    background-color: white;
+    border: solid 5px white;
+
+        border-radius:20em ;
+        margin: 1em;
+
+}

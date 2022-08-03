@@ -1,0 +1,21 @@
+body{
+    background-color: #8E7DBE;
+}
+.counter1{
+    color: blue;
+}
+.counter2{
+    color: orange;
+}
+.counter3{
+    color: green;
+}
+span{
+    color: black;
+   
+}
+
+p > hr {
+    width: 10em;
+  border: 2px solid red;
+}
