@@ -1,5 +1,8 @@
 import React from 'react';
-import SegundoFormulario from "./04-form/segundoFormulario";
+import ApiWithAxios from './06-llamadaAPI/ApiWithAxios';
+//import SegundoFormulario from "./04-form/segundoFormulario";
+//import Inicio from './06-llamadaAPI/Inicio';
+import LlamadaApi from './06-llamadaAPI/LlamadaApi';
 //import ValidationFormulario from "./05-FormValidation/segundoFormularioValidation";
 //
 //import Counter from './02-segundoProyecto/Counter';
@@ -23,7 +26,9 @@ function App({ palabras}: Props) {
 
   return (
     <>
-      <SegundoFormulario />
+      <ApiWithAxios />
+      <hr />
+      <LlamadaApi />
       {/* <h1>Buenas</h1>
       <h2>{palabras} </h2> */}
     </>
