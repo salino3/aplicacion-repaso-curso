@@ -29,6 +29,7 @@ const SegundoFormulario = () => {
     console.log(first.email);
     console.log(first.password);
     setFirst(info);
+
   };
 
   return (
@@ -54,8 +55,6 @@ const SegundoFormulario = () => {
         />
         <Input
           name={"password"}
-          onCh={handleChangeX}
-          valueProps={first.password}
           autoC={"current-password"}
           typeInp="password"
           pl={"Password.."}
@@ -63,9 +62,17 @@ const SegundoFormulario = () => {
         <br />
         <button onClick={() => setFirst(info)}>Resetear</button>
         <button type="submit">Click</button>
+        {info.username}
       </form>
+      <div className="nav">
+        <span className="nav-link text-warning">~</span>
+        <p className="nav-link text-warning">{first.username}</p>
+        <span className="nav-link text-warning">~~~</span>
+        <p className="nav-link text-warning">{first.email}</p>
+        <span className="nav-link text-warning">~</span>
+      </div>
     </>
   );
 };
 
-export default SegundoFormulario;
+export default SegundoFormulario

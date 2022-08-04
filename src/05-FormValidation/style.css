@@ -1,0 +1,40 @@
+
+body{
+    background-color: #6B9AC4 ;
+}
+Input, ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #E5989B;
+
+}
+Input{
+    color: blue;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 10em 100em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: yellow;
+  /*    opacity: 1; Firefox */
+    border: solid 5px green;
+    min-width: 20em;
+}
+
+
+button{
+    color: green;
+    background-color: #F4A261;
+    border: solid 5px green;
+
+        border-radius:20em ;
+        margin: 1em;
+
+}
+h1{
+  color: blue;
+}
+label{
+  color: green;
+  font-size: 150%;
+}
+
+
