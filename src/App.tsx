@@ -1,5 +1,7 @@
 import React from 'react';
-import File06LlamadaApi from './06-llamadaAPI/File06LlamadaApi';
+//import File06LlamadaApi from './06-llamadaAPI/File06LlamadaApi';
+import { FocusScreen } from './06-useRef/FocusScreen';
+import MutableRef from './06-useRef/MutableRef';
 //import SegundoFormulario from "./04-form/segundoFormulario";
 
 //import GifApi from './06-llamadaAPI/GifApi'
@@ -26,7 +28,9 @@ function App({ palabras}: Props) {
 
   return (
     <>
-      <File06LlamadaApi />
+      <FocusScreen />
+      <hr />
+      <MutableRef />
       {/* <h1>Buenas</h1>
       <h2>{palabras} </h2> */}
     </>
