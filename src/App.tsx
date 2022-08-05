@@ -1,8 +1,8 @@
 import React from 'react';
-import ApiWithAxios from './06-llamadaAPI/ApiWithAxios';
+import File06LlamadaApi from './06-llamadaAPI/File06LlamadaApi';
 //import SegundoFormulario from "./04-form/segundoFormulario";
-//import Inicio from './06-llamadaAPI/Inicio';
-import LlamadaApi from './06-llamadaAPI/LlamadaApi';
+
+//import GifApi from './06-llamadaAPI/GifApi'
 //import ValidationFormulario from "./05-FormValidation/segundoFormularioValidation";
 //
 //import Counter from './02-segundoProyecto/Counter';
@@ -26,9 +26,7 @@ function App({ palabras}: Props) {
 
   return (
     <>
-      <ApiWithAxios />
-      <hr />
-      <LlamadaApi />
+      <File06LlamadaApi />
       {/* <h1>Buenas</h1>
       <h2>{palabras} </h2> */}
     </>

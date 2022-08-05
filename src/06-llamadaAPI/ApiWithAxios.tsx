@@ -9,7 +9,7 @@ const [second, setSecond] = useState('');
 const [tercero, setTercero] = useState('');
 
     const handleClick = (miPregunta: any) => {
-        miPregunta = prompt('¿quien es el pokemon amarillo?')
+        miPregunta = prompt('¿Quien es el pokemon eletrico amarillo?')
         if (miPregunta.toLowerCase() === 'pikachu'){
       setSecond(miPregunta.toLowerCase());
      setTercero(" ¡Bravo!");  
@@ -37,9 +37,8 @@ const [tercero, setTercero] = useState('');
     <>
       <h1>Hola desde ApiWithAxios!</h1>
       <p>
-        ~ {name} ~ <span style={{ color: "blue" }}>{tercero}</span>
+        ~ <span className="respuesta">{name}</span> ~ <span style={{ color: "blue" }}>&nbsp; {tercero} </span>
       </p>
-     
       <button onClick={(miPregunta) => handleClick(miPregunta)}>
         Envia pregunta
       </button>

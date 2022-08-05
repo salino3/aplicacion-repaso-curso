@@ -1,0 +1,37 @@
+body{
+    background-color: salmon;
+}
+hr{
+    border: solid 2px darkviolet;
+    margin-top:6em;
+    margin-bottom:2em;
+}
+h1{color: orange;
+font-size: 300%;
+}
+input{
+    font-size: 115%;
+    width: 10em;
+    border-radius:35%;
+    padding-left: 1em;
+    background-color: lightgreen;
+    color:white;
+}
+
+button{
+    color: green;
+border-radius: 50%;
+width: 15em;
+background-color: yellow;
+opacity: 0.6;
+}
+button:hover{
+opacity: 1;
+}
+p{
+    color: red
+}
+.respuesta{
+    color: red;
+    font-size: 130%
+}
