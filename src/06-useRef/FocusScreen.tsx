@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import MutableRef from "./MutableRef";
 
 export const FocusScreen = () => {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -32,6 +33,10 @@ export const FocusScreen = () => {
       <button className="btn btn-primary mt-3" onClick={handleClick}>
         Set focus 2º input
       </button>
+
+      <br /> <br />
+      <hr />
+      <MutableRef />
     </>
   );
 };

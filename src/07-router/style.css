@@ -1,0 +1,11 @@
+body{
+background-color: black;
+color: white
+}
+nav{
+background: orange;
+border: solid 1em red;
+padding: 0em 2em;
+margin-bottom: 2em;
+text: white;
+}

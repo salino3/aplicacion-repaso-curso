@@ -19,8 +19,8 @@ useEffect(() => {
 }, [])
   return (
       <div>
-        Hook Counter - {counter} -  
-         <button onClick={() => stopTimer()}>Stop counter</button>
+        Hook Counter --&gt; {counter} -  
+         <button className='btn btn-warning text-white m-2' onClick={() => stopTimer()}>Stop counter</button>
       </div>
   );
 }
